@@ -11,7 +11,7 @@ Task 1:
 How many campaigns and sources does CoolTShirts use? Which source is used for each campaign?
 
 Use three queries, one for the number of distinct campaigns, one for the number of distinct sources,
-one to ind how they are related.
+one to find how they are related.
 */
 SELECT COUNT(DISTINCT utm_campaign) AS 'No_Campaigns'
 FROM page_visits;
